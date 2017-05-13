@@ -1,0 +1,222 @@
+                            /*Contieners*/
+
+#container
+{
+    width:960px;
+    margin:0 auto;
+    background-image:url(../styles/backround.jpg);
+    background-size:1100px;
+    background-repeat:no-repeat;
+}
+#containerVcom
+{
+    width:960px ;
+    
+    margin:0 auto;
+    background-image:url(../styles/backround.jpg);
+    background-size:960px 1100px;
+    background-repeat:no-repeat;
+}
+#containerData
+{
+    width:960px;
+    height:950px;
+    margin:0 auto;
+    background-image:url(../styles/backround.jpg);
+    background-size:960px 1100px;
+    background-repeat:no-repeat;
+}
+
+body 
+{
+    direction:rtl;
+}
+
+                          /*TOTAL NAV FER*/
+#navHit
+{
+    margin-right:100px;
+    position:center;
+    
+}
+#navHit ul li
+{
+    display:inline-block;
+    position:relative;
+    float:right;
+    font-family: 'Lobster', cursive;
+    font-size:14px;
+    display:inline-block;
+    float:right;
+    
+}
+.secend
+{
+display: none;
+position: absolute;
+clear:both;
+
+}
+.therd
+{
+display: none;
+position: absolute;
+clear:both;
+right:150px;
+top:0px;
+text-align:center;
+padding-bottom:3px;
+}
+
+#navHit ul li:hover .secend, .therd
+{
+display:block;
+width:120px;
+}
+
+#navHit ul li a 
+{
+display: block;
+background-color: #2f2f33;
+color: white;
+width: 150px;
+height: 30px;
+padding-top: 5px;
+padding-bottom:5px;
+text-decoration: none;
+text-align: center;
+}
+#navHit ul li a ui  
+{
+display: block;
+background-color: #2f2f33;
+color: white;
+width: 150px;
+height: 30px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+}
+#GonzoGallry                    /*Underconstraction full gallery*/
+{
+display: block;
+background-color: #2f2f33;
+width: 209px;
+height: 30px;
+padding-top: 10px;
+padding-right:114px;
+text-decoration: none;
+text-align: center;
+color: #000;
+color: rgba(0, 0, 0, 0.5);
+}
+
+#navHit ul li a:hover
+ {
+  background-color:#0094ff;
+ }
+                            /*Title and Text*/
+#HomeTitle
+{
+    color:#f2e8e8;
+    padding-top:125px;
+    font-size: 90px;
+    font:bold;
+    text-align:center;
+    height: 85px;
+    font-family: 'Lobster', cursive;
+    
+}
+.Title
+{
+    color:#f2e8e8;
+    margin-top:5px;
+    margin-bottom:40px;
+    padding-top: 170px;
+    font-size:40px;
+    text-align:center;
+    font-family: 'Lobster', cursive;
+}
+
+
+#TitleH {
+    text-align:center;
+    color: #f2e8e8;
+    margin-top: 5px;
+    margin-bottom:90px;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+ 
+}
+.Disc
+{
+    color:#f2e8e8;
+    margin-top: 10px;
+    padding-right: 387px
+}
+h3
+{
+color: #f2e8e8;
+   
+    text-align:center;
+   font-size:26px;
+   margin-top:23px;
+}
+p
+{
+    margin-top:10px;
+    width:400px;
+    text-align:center;
+    color: #f2e8e8;
+    padding-right:300px;
+}
+.artists
+{
+    text-decoration:none;
+    color:#ffd800;
+}
+
+                               /*Pictures And video*/
+
+figure{
+    text-align:center;
+     -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease
+}
+
+figure:hover{
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -moz-transform: scale(1.7);
+    -webkit-transform: scale(1.7);
+    -o-transform: scale(1.7);
+    -ms-transform: scale(1.7);
+    transform: scale(1.7);
+    padding-bottom:110px;
+}
+
+iframe 
+{
+    margin-right: 200px;
+    margin-top: 10px;
+    border: 2px groove #f2e8e8;
+}
+
+#profpic
+{
+
+    border-radius:70px
+}
+audio
+{
+    position:center;
+    padding-right:333px;
+    padding-top:15px;
+    
+}
+
+
